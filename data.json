@@ -1,0 +1,270 @@
+[
+  {
+    "city": "Paris",
+    "clues": ["City of Lights", "Home to the Eiffel Tower", "Fashion capital"],
+    "answers": ["Paris", "Rome", "London", "Tokyo"],
+    "facts": [
+      "Paris has over 1,800 monuments and 170 museums.",
+      "The Louvre is the most visited art museum in the world.",
+      "Paris is known for its exquisite pastries and bakeries."
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "clues": [
+      "Known for its vibrant pop culture",
+      "Home to the Shibuya crossing",
+      "Technological hub"
+    ],
+    "answers": ["Tokyo", "Seoul", "Beijing", "Bangkok"],
+    "facts": [
+      "Tokyo's fish market is the largest in the world.",
+      "Tokyo has the most Michelin-starred restaurants.",
+      "Vending machines are very common in Japan."
+    ]
+  },
+  {
+    "city": "New York",
+    "clues": ["The Big Apple", "Home to Times Square", "Financial center"],
+    "answers": ["New York", "Chicago", "Los Angeles", "Toronto"],
+    "facts": [
+      "Central Park is larger than Monaco.",
+      "The Statue of Liberty was a gift from France.",
+      "New York City has over 800 languages spoken."
+    ]
+  },
+  {
+    "city": "Rome",
+    "clues": ["The Eternal City", "Home to the Colosseum", "Ancient capital"],
+    "answers": ["Rome", "Athens", "Madrid", "Lisbon"],
+    "facts": [
+      "Rome has over 2,000 fountains.",
+      "The Trevi Fountain is a popular spot to toss coins.",
+      "The Vatican City is located within Rome."
+    ]
+  },
+  {
+    "city": "London",
+    "clues": [
+      "Home to Big Ben",
+      "Known for its double-decker buses",
+      "Capital of England"
+    ],
+    "answers": ["London", "Dublin", "Edinburgh", "Amsterdam"],
+    "facts": [
+      "The London Underground is the oldest subway system.",
+      "London has many free museums.",
+      "The Tower of London has ravens that are cared for."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "clues": [
+      "Famous for its Opera House",
+      "Home to the Harbour Bridge",
+      "Largest city in Australia"
+    ],
+    "answers": ["Sydney", "Melbourne", "Perth", "Auckland"],
+    "facts": [
+      "The Sydney Opera House roof weighs over 15 tons.",
+      "Sydney Harbour is the largest natural harbor in the world.",
+      "The first European settlement in Australia."
+    ]
+  },
+  {
+    "city": "Dubai",
+    "clues": [
+      "Known for its luxurious skyscrapers",
+      "Home to the Burj Khalifa",
+      "A major shopping destination"
+    ],
+    "answers": ["Dubai", "Abu Dhabi", "Doha", "Muscat"],
+    "facts": [
+      "Dubai has the world's largest indoor ski resort.",
+      "The Burj Al Arab is a 7-star hotel.",
+      "Dubai is home to the Palm Jumeirah, an artificial archipelago."
+    ]
+  },
+  {
+    "city": "Rio de Janeiro",
+    "clues": [
+      "Famous for its Carnival celebration",
+      "Home to Christ the Redeemer statue",
+      "Located in Brazil"
+    ],
+    "answers": ["Rio de Janeiro", "Sao Paulo", "Buenos Aires", "Lima"],
+    "facts": [
+      "Rio de Janeiro was once the capital of Portugal.",
+      "The Christ the Redeemer statue is 30 meters tall.",
+      "Rio de Janeiro is surrounded by mountains and beaches."
+    ]
+  },
+  {
+    "city": "Cairo",
+    "clues": [
+      "Home to the Pyramids of Giza",
+      "Located on the Nile River",
+      "Capital of Egypt"
+    ],
+    "answers": ["Cairo", "Alexandria", "Luxor", "Aswan"],
+    "facts": [
+      "Cairo is the largest city in Africa.",
+      "The Pyramids of Giza are the oldest of the Seven Wonders of the Ancient World.",
+      "Cairo is home to the Egyptian Museum."
+    ]
+  },
+  {
+    "city": "Moscow",
+    "clues": [
+      "Known for its Red Square",
+      "Home to the Kremlin",
+      "Capital of Russia"
+    ],
+    "answers": ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg"],
+    "facts": [
+      "Moscow is the most populous city in Europe.",
+      "The Kremlin is a fortified complex at the heart of Moscow.",
+      "Moscow is home to the Bolshoi Theatre."
+    ]
+  },
+  {
+    "city": "Istanbul",
+    "clues": [
+      "Historically known as Constantinople",
+      "Spans two continents: Europe and Asia",
+      "Famous for its Grand Bazaar"
+    ],
+    "answers": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+    "facts": [
+      "Istanbul was once the capital of the Roman, Byzantine, and Ottoman empires.",
+      "The Hagia Sophia is a former Greek Orthodox cathedral, later an Ottoman imperial mosque.",
+      "Istanbul is home to the Topkapi Palace."
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "clues": [
+      "Home to Hollywood",
+      "Known for its sprawling urban landscape",
+      "Located in California"
+    ],
+    "answers": ["Los Angeles", "San Francisco", "San Diego", "Las Vegas"],
+    "facts": [
+      "Los Angeles hosted the 1932 and 1984 Summer Olympics.",
+      "The Hollywood Walk of Fame features over 2,600 stars.",
+      "Los Angeles is home to the Griffith Observatory."
+    ]
+  },
+  {
+    "city": "Toronto",
+    "clues": [
+      "Largest city in Canada",
+      "Home to the CN Tower",
+      "Known for its multiculturalism"
+    ],
+    "answers": ["Toronto", "Montreal", "Vancouver", "Calgary"],
+    "facts": [
+      "Toronto is home to the Hockey Hall of Fame.",
+      "The CN Tower was the world's tallest freestanding structure for 32 years.",
+      "Toronto is a major financial center."
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "clues": [
+      "Financial capital of India",
+      "Home to Bollywood",
+      "Located on the Arabian Sea"
+    ],
+    "answers": ["Mumbai", "Delhi", "Bangalore", "Kolkata"],
+    "facts": [
+      "Mumbai was formerly known as Bombay.",
+      "The Gateway of India is a major landmark.",
+      "Mumbai is home to the Dabbawalas, a lunchbox delivery system."
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "clues": [
+      "Known for its canals",
+      "Home to the Anne Frank House",
+      "Capital of the Netherlands"
+    ],
+    "answers": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht"],
+    "facts": [
+      "Amsterdam has more canals than Venice.",
+      "The Anne Frank House is a museum dedicated to Jewish wartime diarist Anne Frank.",
+      "Amsterdam is known for its liberal culture."
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "clues": [
+      "Capital of Thailand",
+      "Known for its ornate temples",
+      "Famous for its street food"
+    ],
+    "answers": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
+    "facts": [
+      "Bangkok has the longest city name in the world.",
+      "The Grand Palace is a complex of buildings that served as the official residence of the Kings of Siam.",
+      "Bangkok is a popular tourist destination."
+    ]
+  },
+  {
+    "city": "Singapore",
+    "clues": [
+      "A city-state",
+      "Known for its cleanliness and strict laws",
+      "Home to the Gardens by the Bay"
+    ],
+    "answers": ["Singapore", "Kuala Lumpur", "Jakarta", "Manila"],
+    "facts": [
+      "Singapore is a major financial hub.",
+      "Chewing gum is banned in Singapore.",
+      "Singapore is home to the Marina Bay Sands, a luxury resort."
+    ]
+  },
+  {
+    "city": "Berlin",
+    "clues": [
+      "Capital of Germany",
+      "Known for its historical significance",
+      "Home to the Brandenburg Gate"
+    ],
+    "answers": ["Berlin", "Hamburg", "Munich", "Cologne"],
+    "facts": [
+      "Berlin was divided by the Berlin Wall from 1961 to 1989.",
+      "The Brandenburg Gate is a symbol of German reunification.",
+      "Berlin is a major center for arts and culture."
+    ]
+  },
+  {
+    "city": "Seoul",
+    "clues": [
+      "Capital of South Korea",
+      "Known for its K-pop culture",
+      "Home to the Gyeongbokgung Palace"
+    ],
+    "answers": ["Seoul", "Busan", "Incheon", "Daegu"],
+    "facts": [
+      "Seoul hosted the 1988 Summer Olympics.",
+      "The Gyeongbokgung Palace is the largest of the Five Grand Palaces built by the Joseon dynasty.",
+      "Seoul is a major technological hub."
+    ]
+  },
+  {
+    "city": "Madrid",
+    "clues": [
+      "Capital of Spain",
+      "Home to the Prado Museum",
+      "Known for its vibrant nightlife"
+    ],
+    "answers": ["Madrid", "Barcelona", "Valencia", "Seville"],
+    "facts": [
+      "Madrid is home to the Royal Palace of Madrid.",
+      "The Prado Museum houses one of the finest collections of European art.",
+      "Madrid is known for its tapas culture."
+    ]
+  }
+]

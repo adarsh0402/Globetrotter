@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlobeTrotter Quiz</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <!-- Loader Screen -->
+    <div id="loader" class="screen">
+      <div class="loader-spinner"></div>
+      <p>Loading your adventure...</p>
+    </div>
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen" style="display: none">
+      <div class="welcome-container">
+        <h1>Welcome to GlobeTrotter!</h1>
+        <p>Test your knowledge of cities around the world</p>
+        <div class="name-input-container">
+          <input
+            type="text"
+            id="username"
+            placeholder="Choose a unique username"
+            class="name-input"
+          />
+          <p id="username-error" class="error-message" style="display: none">
+            Username already taken
+          </p>
+          <button id="start-game" class="primary-button">
+            Start Adventure
+          </button>
+        </div>
+        <div class="top-scores-container">
+          <h3>Top Scores</h3>
+          <div id="top-scores-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen" style="display: none">
+      <div class="game-container">
+        <div class="header">
+          <div class="player-info">
+            Playing as: <span id="player-username"></span>
+          </div>
+          <div class="score">Score: <span id="current-score">0</span></div>
+        </div>
+
+        <div class="timer-container">
+          <div class="timer">Time left: <span id="time-left">15</span>s</div>
+          <div class="progress-bar">
+            <div id="timer-progress" class="progress"></div>
+          </div>
+        </div>
+
+        <div class="clue-box" id="clues"></div>
+
+        <div class="options-container" id="options"></div>
+
+        <div id="feedback" class="feedback-container"></div>
+
+        <div id="stopwatch" class="stopwatch" style="display: none">
+          <div class="stopwatch-circle">
+            <span id="stopwatch-time">5</span>
+          </div>
+          <p>Next question in...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup-overlay" style="display: none">
+      <div class="popup-content">
+        <h2 id="popup-title">Game Over!</h2>
+        <p id="popup-message"></p>
+        <div class="final-score-container">
+          <h3>Final Score</h3>
+          <div id="final-score" class="final-score">0</div>
+        </div>
+        <div class="popup-buttons">
+          <button id="invite-friend" class="secondary-button">
+            Invite a Friend
+          </button>
+          <button id="play-again" class="primary-button">Play Again</button>
+          <button id="home" class="secondary-button">Back to Home</button>
+        </div>
+        <div id="invite-dialog" class="dialog-box" style="display: none">
+          <div class="dialog-content">
+            <h3>Invite a Friend</h3>
+            <input
+              type="text"
+              id="friend-username"
+              placeholder="Enter friend's username"
+            />
+            <div class="dialog-buttons">
+              <button id="send-invite" class="primary-button">
+                Send Invite
+              </button>
+              <button id="close-invite" class="secondary-button">Cancel</button>
+            </div>
+          </div>
+        </div>
+
+        <button id="close-popup" class="close-button">&times;</button>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
