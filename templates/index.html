@@ -72,6 +72,10 @@
           </div>
           <p>Next question in...</p>
         </div>
+        <hr />
+        <!-- <button id="invite-friend-1" class="secondary-button">
+          Invite a Friend
+        </button> -->
       </div>
     </div>
 
@@ -93,17 +97,33 @@
         </div>
         <div id="invite-dialog" class="dialog-box" style="display: none">
           <div class="dialog-content">
-            <h3>Invite a Friend</h3>
+            <h3 style="color: brown">📨 Invite a Friend</h3>
+            <p style="color: blueviolet">
+              Enter your friend's username to send an invite.
+            </p>
+            <br />
             <input
               type="text"
               id="friend-username"
               placeholder="Enter friend's username"
+              aria-label="Friend's Username"
+              class="input-field"
             />
             <div class="dialog-buttons">
-              <button id="send-invite" class="primary-button">
-                Send Invite
+              <button
+                id="send-invite"
+                class="primary-button"
+                style="margin: 1em 0.3em"
+              >
+                <span>📩</span> Send Invite
               </button>
-              <button id="close-invite" class="secondary-button">Cancel</button>
+              <button
+                id="close-invite"
+                class="secondary-button"
+                style="margin: 1em 0.3em"
+              >
+                <span>❌</span> Cancel
+              </button>
             </div>
           </div>
         </div>

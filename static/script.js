@@ -151,6 +151,7 @@ function updateProgressBar() {
 }
 
 // Check Answer
+
 function checkAnswer(button, selected, correct) {
   clearInterval(timer);
 
@@ -161,9 +162,7 @@ function checkAnswer(button, selected, correct) {
 
   fetch("/check_answer", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       selectedAnswer: selected,
       correctAnswer: correct,
@@ -189,8 +188,26 @@ function checkAnswer(button, selected, correct) {
 
         startStopwatch();
       } else {
-        feedback.innerHTML = `<p class="text-danger">😢 Incorrect!</p>`;
-        endGame();
+        button.style.backgroundColor = "#ff4444"; // Change wrong answer button to red
+        button.style.color = "white";
+        button.style.border = "5px solid #cc0000";
+
+        const randomFact =
+          currentDestination.facts[
+            Math.floor(Math.random() * currentDestination.facts.length)
+          ];
+        feedback.innerHTML = `<p class="text-danger">😢 Incorrect!<br><small>${randomFact}</small></p>`;
+
+        // Show sad-face animation
+        const sadFace = document.createElement("div");
+        sadFace.innerHTML = "😔";
+        sadFace.style.fontSize = "4rem";
+        sadFace.style.textAlign = "center";
+        feedback.appendChild(sadFace);
+
+        setTimeout(() => {
+          endGame();
+        }, 5000);
       }
     })
     .catch((error) => {
@@ -281,7 +298,7 @@ document.getElementById("send-invite").addEventListener("click", () => {
         alert(`Error: ${data.error}`);
       } else {
         if (data.isexisting === true) {
-          alert(`Invitation sent! ${friendUsername} is already registered.`);
+          alert(`Can't invite! ${friendUsername} is already registered.`);
         } else {
           alert(`Invitation sent! ${friendUsername} is now registered.`);
         }
