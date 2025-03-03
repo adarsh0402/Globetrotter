@@ -67,7 +67,7 @@ python -c "from app import init_db; init_db()"
 
 ## 🏆 How to Play
 
-1️⃣ Enter a **unique username** and start the game.  
+1️⃣ Enter a **registerd username** (Initially use admin) and start the game.  
 2️⃣ Read the **clues** about a city.  
 3️⃣ Select the **correct answer** from multiple choices.  
 4️⃣ If correct, you earn points & see a fun fact.  
